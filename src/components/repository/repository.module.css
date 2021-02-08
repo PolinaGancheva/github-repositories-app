@@ -1,0 +1,48 @@
+.container {
+  text-align: left;
+}
+
+.repository {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 15px;
+  border: 1px solid #eaecef;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 1em;
+  margin-right: 0.5em;
+  position: relative;
+  top: 5px;
+}
+
+.text {
+  text-decoration: none;
+  flex: 1;
+}
+
+.titleWrapper {
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title {
+  margin-left: 5px;
+}
+
+.owner {
+  width: 100%;
+}
+
+.name {
+  margin: 0;
+  color: #586069;
+  font-size: 10px;
+  float: left;
+}

@@ -1,0 +1,17 @@
+.wrapper {
+  background-color: #222;
+  color: #fff;
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+.header {
+  line-height: 1;
+  margin: 0;
+  font-weight: 400;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
